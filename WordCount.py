@@ -148,8 +148,8 @@ class LatexWordCountCommand(sublime_plugin.TextCommand):
 Word count for %s
 
 Words:\t\t\t\t\t\t%d
-Characters (ignoring whitespace):\t%d
-Characters (with whitespace):\t%d
+Characters (ignoring whitespace):\t\t\t%d
+Characters (with whitespace):\t\t\t\t%d
 Lines:\t\t\t\t\t\t%d
 
 %s''' % (scope, words, chars, total_chars, lines, language))
